@@ -1,0 +1,161 @@
+%-------------------------
+% Resume in Latex
+% Author : Sourabh Bajaj
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+%\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+\vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+\item\small{
+	\textbf{#1}{: #2 \vspace{-2pt}}
+}
+}
+
+\newcommand{\resumeSubheading}[4]{
+\vspace{-1pt}\item
+\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+	\textbf{#1} & #2 \\
+	\textit{\small#3} & \textit{\small #4} \\
+\end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%% CV STARTS HERE %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+	\textbf{\href{https://www.linkedin.com/in/syed-owais-ahmed-742734178/}{\Large Syed Owais Ahmed}} & \tiny{\href{mailto:syedowaisahmed222@gmail.com}{syedowaisahmed222@gmail.com}}
+	\tiny{\href{https://github.com/SyedOwaisAhmed222}{https://github.com/SyedOwaisAhmed222}}, \tiny{03312946184},\\
+	% \href{https://www.linkedin.com/in/syed-owais-ahmed-742734178}{https://www.linkedin.com/in/syed-owais-ahmed-742734178}
+	\tiny{\href{https://www.linkedin.com/in/syed-owais-ahmed-742734178}{https://www.linkedin.com/in/syed-owais-ahmed-742734178}}
+\end{tabular*}
+\vspace{2px}
+
+\small{\bf Objective: }\small{Seeking an entry-level software engineer position. 
+}
+
+%-----------EDUCATION-----------------I want to make positive contributions to the society.
+\section{Education}
+\resumeSubHeadingListStart
+\resumeSubheading
+{Usman Institute of Technology}{Karachi}
+{Bachelor of Science in Computer Science;}{2019 -- 2023}
+
+\resumeSubHeadingListEnd
+
+
+
+%--------Experience------------
+\section{Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Blockship By Xord}{Karachi}
+{Bootcamp Trainee}{Apr 2022 -- Jun 2022}
+\resumeItemListStart
+\resumeItem{\href{https://xord.com/}}
+{Learnt basics of decentralized web and created a project to demonstrate it.}
+\resumeItemListEnd
+
+
+\resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------------
+\section{Projects}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Crypto Wallet}
+      {Ethereum Dapp to send and recieve tokens along with data on Blockchain.}
+    \resumeSubItem{ASP.Net Management Information System}
+      {University information management system using C\# and SQL Server.}
+	\resumeSubItem{Point of Sale}
+	{A GUI based point of sale system developed using Python Tkinter.}
+  \resumeSubHeadingListEnd
+
+
+
+
+%--------PROGRAMMING SKILLS------------
+\section{Skills}
+\resumeSubHeadingListStart
+\itemsep0em 
+\item{
+	\textbf{Programming}{: Python, C++, Solidity, JavaScript, HTML/CSS}
+}
+\item{
+	\textbf{Databases}{: SQL Server, MySQL}
+}
+\item{
+	\textbf{Cloud} {: AWS EC2, Netsuite SuiteCloud ERP.}
+}
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------------
+%\section{Other Projects}
+%\resumeSubHeadingListStart
+%\resumeSubItem{Sokoban Solver}
+%{Solving sokoban puzzle(NP-complete problem) with machine learning. Designed a recurrent neural network and generated input with SAT solver. \href %{http://thesai.org/Downloads/Volume8No3/Paper_64-Generation_of_Sokoban_Stages_using_Recurrent.pdf}{http://thesai.org}} 
+%\resumeSubItem{GRPC API}
+%{Built a simple GRPC CRUD API with Node.js and Mongodb.}
+
+%\resumeSubItem{Systems programming}
+%{Built virtual machine cluster for MPI and bare metal distributed Hadoop cluster at HPC lab, FAST-NU.}
+%\resumeSubHeadingListEnd
+
+%\section{References}
+%\resumeSubHeadingListStart
+%\item
+%{Vishal Kumar: Sr. Software engineer - Folio3.}
+%\resumeSubHeadingListEnd
+
+\end{document}
